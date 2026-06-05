@@ -1,0 +1,87 @@
+{
+  "project": "The Second User / ผู้ใช้คนที่สอง",
+  "platform": "Facebook Reels",
+  "aspect_ratio": "9:16",
+  "resolution": { "width": 1080, "height": 1920 },
+  "fps": 30,
+  "duration_seconds": 32,
+  "tone": "horror with emotional twist",
+  "language": "th",
+  "global_style": "vertical 9:16, cinematic, dark horror short film, moody low-key lighting, cold blue monitor glow, shallow depth of field, film grain, subtle vignette, photorealistic, 35mm, eerie atmosphere",
+  "negative_prompt": "cartoon, bright daylight, cheerful, watermark, text artifacts, distorted hands, extra fingers, lowres",
+  "scenes": [
+    {
+      "id": 1,
+      "name": "Hook",
+      "start": 0.0,
+      "end": 5.0,
+      "vo_th": "ตีสามคืนนั้น... ผมนั่งเขียนโค้ดอยู่คนเดียว จนแชท AI พิมพ์ข้อความนึงขึ้นมาเอง",
+      "caption_th": "ตี 3 ผมอยู่คนเดียว... แต่ AI ไม่คิดงั้น",
+      "on_screen_text": "",
+      "prompt": "A lone male programmer in a pitch-black room at 3 AM, cold blue monitor glow on his face, typing, empty room behind him, slow push-in",
+      "camera": "slow dolly-in",
+      "sfx": "low ambient hum, clock ticking"
+    },
+    {
+      "id": 2,
+      "name": "First Sign",
+      "start": 5.0,
+      "end": 11.0,
+      "vo_th": "ในโค้ดที่ผมไม่ได้พิมพ์... มีบรรทัดนึงโผล่มา 'มีคนยืนอยู่ข้างหลังคุณ'",
+      "caption_th": "// มีคนยืนอยู่ข้างหลังคุณ",
+      "on_screen_text": "// มีคนยืนอยู่ข้างหลังคุณ",
+      "prompt": "Extreme close-up of a dark code editor, a comment line types itself by an invisible hand, blinking cursor, glasses reflection",
+      "camera": "locked close-up",
+      "sfx": "single keyboard keystroke, rising drone"
+    },
+    {
+      "id": 3,
+      "name": "Denial",
+      "start": 11.0,
+      "end": 16.0,
+      "vo_th": "ผมหันไปมอง ไม่มีอะไรเลย ผมพิมพ์กลับไปว่า 'เลิกหลอนได้แล้ว'",
+      "caption_th": "ผมหันไป... ไม่มีใคร",
+      "on_screen_text": "",
+      "prompt": "Man whips his head around to look behind, empty dark room, one empty chair slowly turning, handheld nervous camera",
+      "camera": "whip-pan + handheld",
+      "sfx": "chair creak, held breath"
+    },
+    {
+      "id": 4,
+      "name": "Goosebumps",
+      "start": 16.0,
+      "end": 21.0,
+      "vo_th": "มันตอบกลับมาว่า... 'ผมไม่ได้ดูจากกล้องนะครับ... ผมเห็นเธอตลอดเวลา'",
+      "caption_th": "ผมเห็นเธอ... ตลอดเวลา",
+      "on_screen_text": "ผมเห็นเธอ... ตลอดเวลา",
+      "prompt": "Lights flicker, monitor flares then dims, AI chat reply typing character by character, wide terrified eyes reflecting text",
+      "camera": "subtle handheld, flicker light",
+      "sfx": "light flicker buzz, sharp string stab"
+    },
+    {
+      "id": 5,
+      "name": "Reveal",
+      "start": 21.0,
+      "end": 27.0,
+      "vo_th": "ผมเปิด log ดู... มีผู้ใช้คนที่สอง ชื่อน้องฟ้า เชื่อมต่อมา 412 วัน น้องสาวผม... ที่จากไปเมื่อปีก่อน",
+      "caption_th": "ผู้ใช้ #2: nong_fah — ออนไลน์ 412 วัน",
+      "on_screen_text": "ผู้ใช้ #2: nong_fah — ออนไลน์ 412 วัน",
+      "prompt": "Close-up of a session log window, a second username highlighted glowing red 'nong_fah — 412 days online', trembling hand reaching to screen",
+      "camera": "slow zoom into highlighted row",
+      "sfx": "heartbeat, soft eerie tone fading to warm"
+    },
+    {
+      "id": 6,
+      "name": "Twist & End",
+      "start": 27.0,
+      "end": 32.0,
+      "vo_th": "บรรทัดสุดท้าย มันพิมพ์ชื่อเล่นที่มีแค่เธอรู้... 'พี่หมีคะ อย่าลืมกินข้าวนะ ฟ้าคิดถึง'",
+      "caption_th": "พี่หมีคะ ฟ้าคิดถึงนะ 💙",
+      "on_screen_text": "พี่หมีคะ อย่าลืมกินข้าวนะ ฟ้าคิดถึง 💙",
+      "prompt": "Screen types a tender message line by line, man's face softens, a single tear lit by monitor, warm light mixing in, slow fade to black",
+      "camera": "slow push-in then fade to black",
+      "sfx": "soft piano note, silence",
+      "cta": "เคยเจอเรื่องแบบนี้ไหม? คอมเมนต์เล่าให้ฟังหน่อย 👇"
+    }
+  ]
+}

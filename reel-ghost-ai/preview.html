@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>พรีวิวรีล — ผู้ใช้คนที่สอง</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;600;800&family=Noto+Sans+Thai+Looped:wght@600&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family:'Noto Sans Thai',sans-serif; background:#07080d; color:#e8e8ef;
+    padding:32px 16px; line-height:1.5;
+  }
+  .head { text-align:center; max-width:760px; margin:0 auto 28px; }
+  .head h1 { font-weight:800; font-size:28px; letter-spacing:.5px;
+    background:linear-gradient(90deg,#6ea8ff,#b48cff); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .head p { color:#9aa0b4; margin-top:8px; font-size:14px; }
+  .spec { display:inline-flex; gap:8px; flex-wrap:wrap; justify-content:center; margin-top:14px; }
+  .spec span { background:#141826; border:1px solid #232a3d; padding:5px 12px; border-radius:20px; font-size:12px; color:#aeb6cc; }
+  .grid {
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,260px));
+    gap:22px; justify-content:center; max-width:1000px; margin:0 auto;
+  }
+  .frame {
+    aspect-ratio:9/16; border-radius:18px; overflow:hidden; position:relative;
+    background:radial-gradient(120% 90% at 50% 18%, #16203a 0%, #0a0d18 55%, #05060c 100%);
+    border:1px solid #1d2438; box-shadow:0 18px 40px rgba(0,0,0,.55);
+    display:flex; flex-direction:column; justify-content:space-between; padding:16px;
+  }
+  .frame::after { /* film grain + vignette */
+    content:""; position:absolute; inset:0; pointer-events:none;
+    box-shadow:inset 0 0 80px 12px rgba(0,0,0,.7);
+  }
+  .badge { display:flex; justify-content:space-between; align-items:center; position:relative; z-index:2; }
+  .scn { font-weight:800; font-size:13px; color:#6ea8ff; }
+  .tc { font-size:11px; color:#7f8093; font-variant-numeric:tabular-nums;
+    background:#0c0f1a; border:1px solid #222a40; padding:3px 8px; border-radius:8px; }
+  .mid { position:relative; z-index:2; text-align:center; padding:0 4px; }
+  .emoji { font-size:34px; filter:drop-shadow(0 0 14px rgba(110,168,255,.4)); }
+  .title { font-weight:600; font-size:13px; color:#c9cfe2; margin-top:6px; }
+  .cap {
+    position:relative; z-index:2; text-align:center; font-weight:800; font-size:15px;
+    color:#fff; text-shadow:0 2px 6px #000,0 0 2px #000; padding:8px 6px;
+    background:linear-gradient(0deg, rgba(0,0,0,.55), transparent); border-radius:10px;
+  }
+  .cap.code { font-family:ui-monospace,Menlo,monospace; color:#8effa1; font-size:13px; }
+  .cap.warm { color:#ffd9e6; }
+  .vo { position:relative; z-index:2; font-size:11px; color:#8a90a6; margin-top:6px; font-style:italic; }
+  .flow { text-align:center; color:#6a7088; font-size:13px; margin:30px auto 8px; }
+  .legend { max-width:760px; margin:24px auto 0; background:#0c0f1a; border:1px solid #1d2438; border-radius:14px; padding:18px 20px; font-size:13px; color:#aeb6cc;}
+  .legend b{color:#e8e8ef;}
+  .peak { border-color:#3a2030; box-shadow:0 18px 40px rgba(60,0,30,.4); }
+  .twist { border-color:#26314f; }
+  .twist { background:radial-gradient(120% 90% at 50% 80%, #2a2440 0%, #0a0d18 55%, #05060c 100%); }
+</style>
+</head>
+<body>
+  <div class="head">
+    <h1>🎬 ผู้ใช้คนที่สอง</h1>
+    <p>รีลแนวตั้งสำหรับ Facebook · เรื่องผีกับ AI · โทนหลอน+ทวิสต์ซึ้ง</p>
+    <div class="spec">
+      <span>9:16 แนวตั้ง</span><span>1080×1920</span><span>~30 วินาที</span>
+      <span>30 fps</span><span>บรรยายไทย</span><span>→ Hyper Frame</span>
+    </div>
+  </div>
+
+  <div class="grid">
+    <!-- 1 -->
+    <div class="frame">
+      <div class="badge"><span class="scn">SCENE 1 · HOOK</span><span class="tc">0:00–0:05</span></div>
+      <div class="mid"><div class="emoji">🌃💻</div><div class="title">โปรแกรมเมอร์นั่งคนเดียว ตี 3 แสงจอสาดหน้า</div></div>
+      <div class="cap">ตี 3 ผมอยู่คนเดียว...<br>แต่ AI ไม่คิดงั้น</div>
+    </div>
+    <!-- 2 -->
+    <div class="frame">
+      <div class="badge"><span class="scn">SCENE 2</span><span class="tc">0:05–0:11</span></div>
+      <div class="mid"><div class="emoji">⌨️👁️</div><div class="title">โค้ดพิมพ์คอมเมนต์ขึ้นมาเอง</div></div>
+      <div class="cap code">// มีคนยืนอยู่ข้างหลังคุณ</div>
+    </div>
+    <!-- 3 -->
+    <div class="frame">
+      <div class="badge"><span class="scn">SCENE 3</span><span class="tc">0:11–0:16</span></div>
+      <div class="mid"><div class="emoji">↩️🪑</div><div class="title">หันไปมอง ห้องว่าง เก้าอี้หมุนเอง</div></div>
+      <div class="cap">ผมหันไป... ไม่มีใคร</div>
+    </div>
+    <!-- 4 -->
+    <div class="frame peak">
+      <div class="badge"><span class="scn">SCENE 4 · พีค</span><span class="tc">0:16–0:21</span></div>
+      <div class="mid"><div class="emoji">⚡😨</div><div class="title">ไฟกระพริบ AI พิมพ์ตอบทีละตัว</div></div>
+      <div class="cap">"ผมเห็นเธอ...<br>ตลอดเวลา"</div>
+    </div>
+    <!-- 5 -->
+    <div class="frame">
+      <div class="badge"><span class="scn">SCENE 5 · เฉลย</span><span class="tc">0:21–0:27</span></div>
+      <div class="mid"><div class="emoji">📜🔴</div><div class="title">เปิด log เจอผู้ใช้คนที่สอง</div></div>
+      <div class="cap code">ผู้ใช้ #2: nong_fah<br>ออนไลน์ 412 วัน</div>
+    </div>
+    <!-- 6 -->
+    <div class="frame twist">
+      <div class="badge"><span class="scn">SCENE 6 · ซึ้ง</span><span class="tc">0:27–0:32</span></div>
+      <div class="mid"><div class="emoji">💙🥹</div><div class="title">น้องสาวที่จากไป ฝากข้อความสุดท้าย</div></div>
+      <div class="cap warm">"พี่หมีคะ อย่าลืม<br>กินข้าวนะ ฟ้าคิดถึง"</div>
+    </div>
+  </div>
+
+  <div class="flow">HOOK → สัญญาณแรก → ปฏิเสธ → ⚡พีคหลอน → เฉลย → 💙ทวิสต์ซึ้ง (จุดที่คนแชร์)</div>
+
+  <div class="legend">
+    <b>วิธีใช้:</b> ก๊อปพรอมต์จาก <b>hyperframe-prompts.md</b> ไปเจนแต่ละ scene ใน Hyper Frame →
+    เอาบรรยายจาก <b>voiceover.txt</b> เข้า TTS เสียงไทย → ประกอบตาม <b>production-guide.md</b> →
+    ลาก <b>captions.srt</b> ใส่ซับ → เอ็กซ์พอร์ต 1080×1920 → ลง Facebook Reels<br><br>
+    <b>หัวใจ:</b> 3 วิแรกต้องเด้ง (ฮุก) · จุด 0:16 ใส่ string stab ให้สะดุ้ง · 0:21 เป็นต้นไปพลิกเป็นเปียโนเศร้า ให้คน "อิน" แล้วอยากแชร์
+  </div>
+</body>
+</html>
